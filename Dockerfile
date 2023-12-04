@@ -16,4 +16,7 @@ RUN npm install
 # Build Vite assets
 # RUN npm run build
 
+# Expose port 80 for HTTP
+EXPOSE 80
+
 CMD ["/start.sh"]
